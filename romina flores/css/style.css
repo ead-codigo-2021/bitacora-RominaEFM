@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    font-family: 'Lato';
+    font-family: 'Kaisei';
+}
+
+
+header{    
+    background-color: slategrey;
+    max-height: none;
+    font-family: 'Lato'
+}
+
+
+nav {
+    background-color: slategray;
+}
+
+nav>ul{
+    display: inline-flex;
+    text-align: center;
+     list-style-type: none;
+   padding: 10vh;
+
+}
+nav>li {
+    padding: 1vh;
+    color: mediumblue;
+    background-color: rgba(206, 169, 135, 0.945);
+ }
+li:hover{
+    background-color: moccasin;
+}
+nav>li a{
+    text-decoration: none;
+}
+
+
+
+/*menu inicio*/
+main>ul{ 
+    text-align: center;
+     list-style-type: none;
+    display:flexbox;
+    justify-content: space-around;
+   padding: auto;
+   align-items: flex-start;
+   margin: 5vh;
+}
+
+main>li  {
+    padding: 10,20,10,20vh;
+    color: mediumblue;
+    width: 40%;
+    background-color: rgba(206, 169, 135, 0.945);
+ }
+.menu {
+    width:100%;
+}
+ 
+h1{
+    color:mediumblue;
+}
+h2{
+    color:mediumblue;
+}
+
+h3{
+    color:mediumblue;
+}
+h4{
+    color:mediumblue;
+}
+h5{
+    color:mediumblue;
+}
+
+h6{
+    color:mediumblue;
+}
+
+main {  
+ background-image: url(../fotografias/escultura.jpg);
+
+}
