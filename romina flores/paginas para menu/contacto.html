@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    
     <title>Bitacora Romina Flores</title>
     <link rel="stylesheet"  href= "../css/style.css"all>
 </head>
@@ -11,6 +13,7 @@
     <header>
         <img src="fotografias/ddc.png" height="80vh" alt="">
         <h1>Bitacora diseño del codigo</h1>
+        <img class="logo" src="fotografias/ddc.png" height="80vh" alt="">
     </header>
     
     <nav>
@@ -19,12 +22,80 @@
                 <li><a href="presentacion.html">Presentación</a> </li>
                 <li><a href="notas de clase.html">Notas de clases</a> </li>
                 <li><a href="contacto.html">Contacto</a> </li>
-                <li><a href="Imagenes de relleno.html">Imagenes de relleno</a> </li>
+                <li><a href="galeria.html">Galeria</a> </li>
             </ul>
     </nav>
 
     <main>
+        <div class="contacto">
+            <h2>Nuestras redes sociales</h2>
+            <div class="redes-sociales">
+                <center>
+                  <a href="#" class="fa fa-facebook"></a>
+                 <a href="#" class="fa fa-instagram"></a>
+                 <a href="#" class="fa fa-whatsapp"></a>
+                 <a href="#" class="fa fa-telegram"></a>
+                </center>
+            </div>
+        </div>
+     <form action=" enviar.php" method="post">
+         <h3>Escribenos</h3>
+         <input type= "text" name="Nombre" placeholder= "Nombre" required> 
+         <input  type= "text" name="Correo" placeholder= "Correo" required>
+         <input  type= "text" name="Telefono" placeholder= "Telefono" required> 
+         <textarea name="mensaje" placeholder=" Escriba aquí su mensajes..." required></textarea>
+         <input type="submit" value="ENVIAR" id="boton">
+     </form>
+     <h2>Visitanos</h2>
+     <center>
+         <div class="villa">
+     <p class=>Dirección: Lord Cochrane #558</p>
+     <p class=>Dirección: San Pablo  #5158</p>
+     <p class=>Dirección: Bandera  #4758</p>
+    </div>
+    </center>
+     <h2>Llamanos</h2>
+     <center>
+     <p class="villa">Telefono: 52 2 574512 / 52 2574513</p>
+     </center>
   
     </main>
+    <footer>
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="../fotografias/ddc.png" alt="Logo">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>Visitanos</h2>
+                    <center>
+                    <p>Dirección: Lord Cochrane #558</p>
+                    <p>Dirección: San Pablo  #5158</p>
+                </center>
+                    <h2>Llamanos</h2>
+                    <center>
+                    <p>Telefono: 52 2 574512 / 52 2574513</p>
+                </center>
+                </div>
+                <div class="box">
+                    <h2>Nuestras redes sociales</h2>
+                    <div class="red-social">
+                        <center>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-whatsapp"></a>
+                        <a href="#" class="fa fa-telegram"></a>
+                    </center>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small> 2021 <b>DDC</b> Bitacora</small>
+            </div>
+        </footer>
 </body>
 </html>
