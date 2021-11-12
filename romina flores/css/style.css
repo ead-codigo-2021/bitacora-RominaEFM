@@ -105,7 +105,7 @@ h6{
     text-align: center;
     margin: 35px;
 }
-h3{/*Contacto*/
+h3{
     color:moccasin;
     text-align: center;
     margin: 0;
@@ -123,6 +123,44 @@ h4{
     padding: 10px 20px;
     border-radius: 7px;
 }
+/*notas de clases*/
+.contenido{
+    display:flex;
+    justify-content: space-around;
+   padding: auto;
+   align-items: flex-start;
+   margin: 10vh;
+   background-color:rgba(0, 0, 0, 0.1) ;
+}
+
+.clases{
+ width: 20%;
+
+}
+
+.clases >img {
+    width:100%;
+}
+.contenedor{
+    padding: 60px 0;
+   width: 90%;
+   max-width: 1000px;
+   margin: auto;
+   overflow: hidden;
+   }
+                                               
+   .titulo{
+   color: #373838;
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 60px;
+   padding: 30px 0 0px 0;
+   justify-content: space-around;
+   }
+   
+                
+
+
  /*contactanos */
 .redes-sociales a{
     display: inline-block;
