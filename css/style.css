@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    font-family: 'Lato';
+    font-family: 'Kaisei';
+    background-image: url(../fotografias/escultura.jpg);
+    background-size: 100vw 100vw;
+    background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+header{    
+    max-height: auto;
+    display: inline-flexbox;
+   text-align: center;
+    font-family: 'Lato';
+    padding: 0 0 10vh 0;
+    background-color: rgba(207, 226, 247, 0.644);
+}
+head img{
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    text-align: center;
+    background-color: rgba(207, 226, 247, 0.644);
+}
+
+/*Menu general*/
+nav>ul{
+    display: inline-flex;
+    text-align: center;
+    list-style-type: none;
+   padding: 2vh;
+}
+nav>ul>li{
+    background-size: 100vw 100vw;
+    background-attachment: fixed;
+    padding:1vw;
+    margin: auto;
+    color: mediumblue;
+    text-decoration: none;
+    font-family: 'lato';
+}
+nav li:hover{
+    background-color: moccasin;
+}
+
+
+/*menu inicio*/
+.inicioul{ 
+    margin: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 3vh;
+    list-style-type: none;
+    display: flex;
+    color: mediumblue;
+    font-family: 'lato';
+
+    justify-content: center;
+    align-items: center;
+ }
+.menu {
+    width: 95%;
+}
+.menu:hover{
+    background-color: rgb(250, 235, 208);
+}
+
+
+ /*titulos */
+ .titulo{
+    color:rgb(250, 235, 208);
+    text-align: center;
+    padding: 2vw;
+    font-size: 10vh;
+    font-family: 'Kaisei';
+ }
+h1 { 
+    color:rgb(250, 235, 208);
+    text-align: center;
+    padding: 2vw;
+    font-size: 7vh;
+    font-family: 'Kaisei';
+}
+h2,
+h5,
+h6{
+    color:rgb(250, 235, 208);
+    font-size: 7vh;
+    text-align: center;
+    font-family: 'Kaisei';
+    text-align: center;
+    margin: 35px;
+}
+h3{
+    color:rgb(250, 235, 208);
+    text-align: center;
+    margin: 0;
+    font-size:7vh;
+    margin-bottom: 10px;
+    font-family: 'Kaisei';
+}
+h4{
+    text-align: center;
+    color:rgb(250, 235, 208);
+    font-size: 7vh;
+    width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.1) ;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+/*inicio*/
+.p-inicio{
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 20%;
+    text-align: center;
+}
+.p-inicio p{
+    padding: 5vh;    
+    font-size: 3vh;
+}
+
+/*notas*/
+.contenido{
+    width: 90%;
+    display: flex;
+    text-align: center;
+  
+}
+.nota{
+    background-color: rgba(0, 0, 0, 0.1);  
+    width: 40%;
+    margin: 5vh;
+   text-align: center;
+}
+.nota >img {
+    margin-top: 2vh;
+    width: 90%;
+}    
+.info >img {
+    margin-top: 2vh;
+    width: 90%;
+}   
+ .subtitulo{
+   color: #373838;
+   font-size: 4vh;
+   text-align: center;
+   
+   }
+   .info{
+       font-size: 2vh;
+       text-align: center;
+       max-width: 90%;
+       padding: 2vh;
+   }
+   
+ /*contactanos */
+.redes-sociales a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: mediumblue;
+    margin-right: 20px;
+    background-color: lightskyblue;
+    text-align: center;
+    transition: all 300ms ease;
+    
+} 
+.redes-sociales{
+   margin: 10vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 450px;
+    border-radius: 7px;
+    padding-bottom: 3vh;
+}
+
+form{ /*formulario*/
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.1) ;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+input{ /*formulario*/
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: none;
+}
+textarea{ /*formulario*/
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 300px;
+    max-height: 800px;
+    font-family: 'lato';
+}
+#boton{ /*formulario*/
+    background: rgba(206, 169, 135, 0.945);
+    color: mediumblue;
+    padding: 20px;
+    font-family: 'lato';
+}
+#boton:hover{ /*formulario*/
+    background-color: rgb(250, 235, 208) ;
+    cursor: pointer;
+}
+.villa{/*mapa y llamanos*/
+    margin-top: 10vh;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.1) ;
+    padding-bottom: 3vh;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: 'lato';
+    color: white;
+}
+iframe{/*mapa*/
+  padding-top: 5vh;
+}
+
+/*galeria*/
+.slider-frame {
+    width: 50%;
+    height: auto;
+    margin:50px auto 0;
+    overflow: hidden;
+}
+.galeria {
+    display: flex;
+    padding: 0;
+    width:400%;
+    animation: slide 10s infinite alternate ease-in-out;
+}
+.slider {
+    width: 100%;
+    list-style: none;
+}
+.slider img {
+    width: 100%;
+}
+video{
+    padding: 80px 0 30px 0;
+    max-width: 49vw;
+    min-width: 49vw;
+}
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+
+
+/*Footer*/
+footer{
+    margin-top: 10vh;
+}
+.pie-pagina{
+    width: 100vw;
+    background-color: rgba(207, 226, 247, 0.644);
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 20vw; 
+    margin: auto;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: mediumblue;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: mediumblue;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: mediumblue;
+    margin-right: 10px;
+    background-color: rgb(135, 206, 250);
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-2{
+    background-color: rgb(207, 226, 247);
+    padding: 15px 10px;
+    text-align: center;
+    color: lightskyblue;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
