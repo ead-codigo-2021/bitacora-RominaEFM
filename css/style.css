@@ -8,20 +8,17 @@ body{
     font-family: 'Lato';
     font-family: 'Kaisei';
     background-image: url(../fotografias/escultura.jpg);
-    background-size: 100vw 100vw;
-    background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.1);
+    background-size: 100vw;
 }
 header{    
     max-height: auto;
     display: inline-flexbox;
    text-align: center;
     font-family: 'Lato';
-    padding: 0 0 10vh 0;
+    padding-bottom: 5vh ;
     background-color: rgba(207, 226, 247, 0.644);
 }
 head img{
-    justify-content: center;
     align-items: center;
 }
 
@@ -42,7 +39,6 @@ nav>ul>li{
     background-attachment: fixed;
     padding:1vw;
     margin: auto;
-    color: mediumblue;
     text-decoration: none;
     font-family: 'lato';
 }
@@ -60,10 +56,10 @@ nav li:hover{
     list-style-type: none;
     display: flex;
     color: mediumblue;
-    font-family: 'lato';
-
+    font-family: 'Lato';
     justify-content: center;
     align-items: center;
+    
  }
 .menu {
     width: 95%;
@@ -125,8 +121,10 @@ h4{
     text-align: center;
 }
 .p-inicio p{
+    font-family: 'Lato';
     padding: 5vh;    
     font-size: 3vh;
+    color: rgb(250, 235, 208);
 }
 
 /*notas*/
@@ -134,7 +132,6 @@ h4{
     width: 90%;
     display: flex;
     text-align: center;
-  
 }
 .nota{
     background-color: rgba(0, 0, 0, 0.1);  
@@ -151,7 +148,7 @@ h4{
     width: 90%;
 }   
  .subtitulo{
-   color: #373838;
+   color: rgb(250, 235, 208);
    font-size: 4vh;
    text-align: center;
    
@@ -161,6 +158,11 @@ h4{
        text-align: center;
        max-width: 90%;
        padding: 2vh;
+   }
+   .p-inicio iframe{
+       width: 80%;
+       padding-bottom: 5vh ;
+       height: 30vw;
    }
    
  /*contactanos */
@@ -276,19 +278,18 @@ video{
 /*Footer*/
 footer{
     margin-top: 10vh;
+     width: 100vw;
 }
 .pie-pagina{
-    width: 100vw;
     background-color: rgba(207, 226, 247, 0.644);
 }
 .pie-pagina .grupo-1{
     width: 100%;
-    max-width: 1200px;
     margin: auto;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:50px;
-    padding: 45px 0px;
+    padding: 10px;
 }
 .pie-pagina .grupo-1 .box figure{
     width: 100%;
@@ -298,17 +299,18 @@ footer{
     align-items: center;
 }
 .pie-pagina .grupo-1 .box figure img{
-    width: 20vw; 
+    width: 10vw; 
     margin: auto;
 }
 .pie-pagina .grupo-1 .box h2{
     color: mediumblue;
-    margin-bottom: 25px;
-    font-size: 20px;
+    margin-bottom: 15px;
+    font-size: 3vh;
 }
 .pie-pagina .grupo-1 .box p{
     color: mediumblue;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 2vh;
 }
 .pie-pagina .grupo-1 .red-social a{
     display: inline-block;
@@ -317,18 +319,18 @@ footer{
     height: 45px;
     line-height: 45px;
     color: mediumblue;
-    margin-right: 10px;
+    margin: 10px;
     background-color: rgb(135, 206, 250);
     text-align: center;
-    transition: all 300ms ease;
+    transition: all 290ms ease;
 }
 
 .pie-pagina .grupo-2{
     background-color: rgb(207, 226, 247);
-    padding: 15px 10px;
+    padding: 10px 10px;
     text-align: center;
     color: lightskyblue;
 }
 .pie-pagina .grupo-2 small{
-    font-size: 15px;
+    font-size: 2vh;
 }
