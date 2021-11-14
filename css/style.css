@@ -11,9 +11,10 @@ body{
     background-size: 100vw;
 }
 header{    
-    max-height: auto;
+    width: 100vw;
+    height: auto;
     display: inline-flexbox;
-   text-align: center;
+    text-align: center;
     font-family: 'Lato';
     padding-bottom: 5vh ;
     background-color: rgba(207, 226, 247, 0.644);
@@ -23,6 +24,7 @@ head img{
 }
 
 nav {
+    width: 100vw;
     text-align: center;
     background-color: rgba(207, 226, 247, 0.644);
 }
